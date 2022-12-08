@@ -1,5 +1,5 @@
 pandas==1.2.3
-snscrape==0.8.0
+snscrape==0.4.3.20220106
 spacy==2.5.0
 streamlit==0.68.0
 openpyxl==4.0.0

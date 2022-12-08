@@ -7,6 +7,7 @@ import streamlit as st
 # Load the Italian language model
 nlp = spacy.load("it_core_news_sm")
 
+@st.cache
 def scrape_tweets(usernames, since, until):
     tweets = []
 
